@@ -1,0 +1,1 @@
+int drawable wave 0x7f020000

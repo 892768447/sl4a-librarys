@@ -1,0 +1,1 @@
+int color holo_blue_light 0x7f020000

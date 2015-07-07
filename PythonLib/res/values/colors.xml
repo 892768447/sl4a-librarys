@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black1">#333333</color>
+    <color name="text_tra">#e0000000</color>
+    <color name="text_blue">#00CCFF</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+</resources>

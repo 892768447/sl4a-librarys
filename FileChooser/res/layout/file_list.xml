@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="256dip"
+        android:layout_gravity="center"
+        android:contentDescription="@string/empty_directory" />
+
+    <python.listview.JazzyListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        app:effect="helix"
+        app:max_velocity="0"
+        app:only_animate_fling="false"
+        app:only_animate_new_items="false" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:gravity="center" />
+
+</FrameLayout>
